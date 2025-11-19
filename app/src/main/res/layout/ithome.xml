@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:id="@+id/RelativeLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF00090F">
+
+	<ImageView
+		android:gravity="center"
+		android:id="@+id/imgView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="0sp"
+		android:src="@drawable/p2"
+		android:scaleType="fitXY"
+
+		/>
+	
+	<TextView
+		android:textSize="16sp"
+		android:gravity="center_horizontal"
+		android:id="@+id/xTView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="0sp"
+		android:background="#AF151000"
+		android:paddingTop="5dp"/>
+	
+<GridView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/gridview"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:numColumns="4"
+	android:verticalSpacing="12dp"
+	android:horizontalSpacing="20dp"
+	android:columnWidth="80dp"
+	android:stretchMode="spacingWidth"
+	android:gravity="center"
+	android:scaleX="1.0"
+	android:scaleY="1.0"
+	android:layout_marginTop="0dp"
+	android:layout_marginBottom="0dp"
+	android:layout_marginLeft="0dp"
+	android:layout_marginRight="0dp"
+	android:text="123"
+	android:textAlignment="textEnd"
+	android:textColor="#ffffffff"
+	
+	android:ellipsize="end"
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+	android:paddingTop="5dp"
+	/>
+
+</RelativeLayout>
+
+<!--
+android:background="#9f00003f"
+
+android:background="#FF300001" 	
+-->
+

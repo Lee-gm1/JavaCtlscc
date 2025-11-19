@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center">
+
+	<ImageView
+		android:id="@+id/im2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scaleType="fitXY"
+		/>
+
+	<TextView
+		android:text="@string/tv_schk"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tv_schk"
+		android:textColor="#ffA0Dfff"
+		android:background="#00000000"
+		android:gravity="center"/>
+
+	<TextView
+		android:text="ListMenu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		
+		android:background="#00000000"/>
+
+	<ListView
+		android:id="@+id/LView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/edit_text_l"
+		android:scrollbars="vertical"
+		android:fadingEdge="vertical"
+		android:typeface="monospace"
+		android:gravity="top"
+		android:textSize="18sp"
+		android:text="Tv3"
+		android:choiceMode="multipleChoice"
+		android:transcriptMode="normal"
+		android:letterSpacing="0.0"
+		android:background="#10000000">
+
+	</ListView>
+
+	<TextView
+		android:text="@string/FList2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#00000000"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+

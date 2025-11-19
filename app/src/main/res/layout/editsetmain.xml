@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#004A6300">
+
+	<ImageView
+		android:id="@+id/editdi5"
+		android:layout_width="520dp"
+		android:layout_height="240dp"
+		android:layout_margin="40dp"/>
+
+	<TextView
+		android:text="Bg Color\nCh Size 1~5\nBg Pic : 0~4\nAuto Chg : 1\nStart Line : \nEnd   Line : \n"
+		android:layout_width="520dp"
+		android:layout_height="240dp"
+		android:background="#00000000"
+		android:layout_marginTop="20dp"
+		android:textColor="#FFB09FFF"
+		android:layout_marginLeft="30dp"
+		android:textSize="15sp"/>
+
+	<EditText
+		android:id="@+id/edit3s"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_marginTop="0dp"
+		android:textColor="#FFFFFFFF"
+		android:scrollHorizontally="true"
+		android:text="0x30000080\n3\n1\n0\n1\n2000"
+		android:background="#FF000000"
+		android:typeface="monospace"
+		android:textSize="15sp"
+		android:maxLength="28"
+		android:layout_margin="20dp"
+		android:layout_centerHorizontal="true"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#00CCAE6B"
+		android:layout_centerVertical="true"
+		android:layout_margin="50dp">
+
+		<Button
+			android:id="@+id/cancelBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:text="Cancel"
+			android:layout_marginTop="90dp"
+			android:lines="2"
+			android:onClick="onButtNo"
+			android:textSize="12sp"
+			android:textColor="#FFFFFFFF"
+			android:background="#404F9A"/>
+
+		<Button
+			android:id="@+id/defaultBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:text="Init"
+			android:layout_marginTop="90dp"
+			android:lines="2"
+			android:onClick="onButtDft"
+			android:textSize="12sp"
+			android:textColor="#FFFFFFFF"
+			android:background="#5B792F"/>
+
+		<Button
+			android:id="@+id/storeBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:layout_gravity="top"
+			android:text="Store✔"
+			android:layout_marginTop="90dp"
+			android:onClick="onButtYes"
+			android:textSize="12sp"
+			android:textColor="#FFFFFFFF"
+			android:background="#9A5148"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
+<!--
+android:text="Bg Color\nFg Color\nCh Size\nBg Pic"
+android:text="0xFF000000\n0xFFFFFFFF\n15\nappbd10"
+-->
+

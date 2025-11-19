@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollHorizontally="true"
+	
+	android:background="#004A6300">
+
+	<ImageView
+		android:id="@+id/editdi51"
+		android:layout_width="520dp"
+		android:layout_height="240dp"
+		android:layout_margin="20dp"/>
+	
+
+		
+	<ScrollView
+		
+		
+		
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#50010C30"
+		android:scrollbars="vertical"
+		android:paddingTop="0dp"
+		android:layout_marginTop="0dp"
+		
+		android:scrollHorizontally="true"
+		android:scrollbarThumbVertical="@drawable/scrollbaryl"		
+		android:fadeScrollbars="false"
+		
+		
+		android:fastScrollEnabled="true"
+		android:fastScrollAlwaysVisible="true"
+		
+	>
+	
+		<HorizontalScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#50010C30"
+			android:scrollbars="vertical"
+			android:paddingTop="0dp"
+			android:scrollHorizontally="true"
+			android:scrollbarThumbVertical="@drawable/scrollbaryl"		
+			android:fadeScrollbars="false"
+			
+			android:fastScrollEnabled="true"
+			android:fastScrollAlwaysVisible="true"
+			
+		>		
+	
+	<LinearLayout	
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#00CCAE6B"
+		android:layout_centerVertical="false"
+		android:scrollHorizontally="true"
+		android:layout_margin="0dp"
+		android:layout_marginTop="0dp"
+		>
+		
+		<TextView
+			android:id="@+id/edit50"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FF009FFF"
+			android:scrollHorizontally="true"
+			android:textSize="14sp"
+			android:background="#FF000000"
+			android:maxLength="10000000"	
+			android:typeface="monospace"
+			android:layout_margin="0dp"
+			android:layout_marginTop="0dp"
+
+		/>
+		
+
+		
+	<EditText
+		android:id="@+id/edit51"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFFFF"
+		android:scrollHorizontally="true"
+		android:textSize="14sp"
+		android:background="#FF000000"
+		android:maxLength="1000000000"	
+		android:typeface="monospace"
+		android:layout_margin="0dp"
+		android:layout_marginTop="0dp"
+		
+		android:fastScrollEnabled="true"
+		android:fastScrollAlwaysVisible="true"
+		
+		
+		/>
+	
+
+	
+	</LinearLayout>
+	</HorizontalScrollView>
+	</ScrollView>
+	
+
+	<TextView
+		android:id="@+id/ed1txt51"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#00202020"
+		android:layout_margin="0dp"
+		android:layout_marginTop="0dp"
+		android:textSize="13sp"
+		android:layout_centerHorizontal="true"
+		android:textColor="#50A0C0FF"
+		android:ellipsize="start"
+		android:maxLines="1"
+		android:gravity="center_horizontal"
+	    
+		
+		/>
+
+	<!-- LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#00CCAE6B"
+		android:layout_centerVertical="true"
+		android:layout_margin="20dp"
+		android:layout_marginTop="20dp">
+
+		<Button
+			android:id="@+id/cancel1Btn"
+			android:layout_width="0dp"
+			android:layout_height="40dp"
+			android:layout_weight="1"
+			android:text="Cancel"
+			android:layout_marginTop="210dp"
+			android:onClick="onButtNone"
+			android:textColor="#FFFFFFFF"
+			android:background="#5574A1"/>
+
+		<Button
+			android:id="@+id/default1Btn"
+			android:layout_width="0dp"
+			android:layout_height="40dp"
+			android:layout_weight="1"
+			android:text="Init"
+			android:layout_marginTop="210dp"
+			android:onClick="onButtInit"
+			android:textColor="#00FFFFFF"
+			android:background="#009C7837"/>
+
+		<Button
+			android:id="@+id/save1Btn"
+			android:layout_width="0dp"
+			android:layout_height="40dp"
+			android:layout_weight="1"
+			android:layout_gravity="top"
+			android:text="Save ✔"
+			android:layout_marginTop="210dp"
+			android:onClick="onButtSave"
+			android:textColor="#FFFFFFFF"
+			android:background="#CA4E3F"/>
+
+	</LinearLayout -->
+
+</RelativeLayout>
+
+<!--
+android:text="Save Text File ?"
+android:ellipsize="start"
+android:maxLength="30"
+android:marqueeRepeatLimit="5"
+android:marqueeRepeatLimit="5"
+
+android:singleLine  Xx
+
+    android:ellipsize="marquee"
+	android:gravity="center_horizontal"
+	
+android:gravity="center_horizontal"
+
+android:maxLength="10000000"	
+android:inputType="textMultiLine"
+
+android:fastScrollEnabled="true"
+android:fastScrollAlwaysVisible="true"
+
+android:gravity="fill_vertical"
+android:layout_height="210dp"
+
+EditView :
+android:fastScrollEnabled="true"
+android:fastScrollAlwaysVisible="true"
+
+android:text="Text.txt"
+
+android:layout_width="300dp"
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="210dp"
+
+android:ems="30"
+
+android:ems="30"
+
+android:inputType="textMultiLine"
+android:inputType="textMultiLine"
+
+
+android:layout_weight="1"
+android:layout_weight="1"
+
+<ScrollView
+	
+</ScrollView>
+
+<HorizontalScrollView
+	
+</HorizontalScrollView>
+
+
+<EditText
+
+android:layout_width="50dp"
+android:layout_width="80dp"
+
+-->
+

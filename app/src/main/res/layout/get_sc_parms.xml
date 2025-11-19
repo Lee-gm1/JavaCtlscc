@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright (C) 2010 - 2019 Paul Laughton
+-->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip" >
+
+	<TextView android:id="@+id/enter_text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		style="@style/label_l"
+		android:text="@string/enter_text_label" />
+
+	<EditText android:id="@+id/the_text1"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:layout_marginBottom="5dip"
+		style="@style/edit_text_l" />
+
+	<TextView android:id="@+id/enter_text2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		style="@style/label_l"
+		android:text="@string/enter_text2_label" />
+
+	<EditText android:id="@+id/the_text2"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:layout_marginBottom="5dip"
+		style="@style/edit_text_l" />
+
+	<TextView android:id="@+id/enter_text3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		style="@style/label_l"
+		android:text="@string/enter_text3_label" />
+
+	<EditText android:id="@+id/the_text3"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:layout_marginBottom="5dip"
+		style="@style/edit_text_l" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="15dip" >
+
+		<Button android:id="@+id/cancel_button"
+			android:layout_weight="1"
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:text="@string/cancel_button_label" />
+
+		<Button android:id="@+id/ok_button"
+			android:layout_weight="1"
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:text="@string/ok_button_label" />
+
+	</LinearLayout>
+
+</LinearLayout>

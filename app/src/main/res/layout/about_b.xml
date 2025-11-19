@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF000000">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:paddingTop="20dp"
+		android:paddingLeft="48dp"
+		android:paddingRight="48dp">
+
+		<TextView
+			android:id="@+id/about_tv1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:textColor="#FFD7D7FF"
+			android:textSize="23sp"
+			android:typeface="serif"/>
+
+		<TextView
+			android:id="@+id/about_tv2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:textColor="#FFCCCCFF"
+			android:textSize="14sp"
+			android:typeface="serif"/>
+
+		<Button
+			android:id="@+id/about_btn_programs"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_programs"
+			android:textAllCaps="false"
+			android:background="#80BFFF00"
+			android:textColor="#FFeFeA89"/>
+
+		<Button
+			android:id="@+id/about_btn_github"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_github"
+			android:textAllCaps="false"
+			android:background="#68F9FF00"
+			android:textColor="#FFd9dFf9"/>
+
+		<Button
+			android:id="@+id/about_btn_forum"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_forum"
+			android:textAllCaps="false"
+			android:background="#7F00A3FE"
+			android:textColor="#FFbFbFd9"/>
+
+		<Button
+			android:id="@+id/about_btn_license"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_license"
+			android:textAllCaps="false"
+			android:background="#8C64C300"
+			android:textColor="#FF959F99"/>
+
+
+		<Button
+			android:id="@+id/about_btn_tele1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_tele1"
+			android:textAllCaps="false"
+			android:background="#8CF800FF"
+			android:textColor="#FFF9EAB2"/>
+        
+        <Button
+            android:id="@+id/about_btn_tele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text_btn_tele"
+            android:textAllCaps="false"
+            android:background="#8CE7EE00"
+            android:textColor="#FFCFDFF8"/>
+        
+
+		<Button
+			android:id="@+id/about_btn_tele2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/about_text_btn_tele2"
+			android:textAllCaps="false"
+			android:background="#8C0058FF"
+			android:textColor="#FFB1AFFF"/>
+
+		<TextView
+			android:id="@+id/about_tv3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:textSize="14sp"
+			android:typeface="serif"
+			android:textColor="#FFe0d0bF"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

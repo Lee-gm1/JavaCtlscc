@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="240dp"
+	android:layout_height="120dp"
+	
+	android:id="@+id/editll5"
+
+	
+	android:background="#004A6300">
+
+	<ImageView
+		android:id="@+id/editdi5"
+		android:layout_width="520dp"
+		android:layout_height="240dp"
+		android:layout_margin="40dp"/>
+
+	<EditText
+		android:id="@+id/edit3m"
+		android:layout_width="120dp"
+		android:layout_height="35dp"
+
+		android:layout_marginTop="20dp"
+		android:textColor="#FFffffff"
+		android:textColorHint="#FF9090ff"
+		android:scrollHorizontally="true"
+		
+		
+		android:background="#F0505060"
+		
+		android:hint="Line number "
+		
+		android:textSize="17sp"
+		
+		android:lines="1"
+		android:maxLines="1"
+		android:maxLength="6"
+		
+		android:inputType ="number"
+		
+		android:layout_margin="20dp"
+		android:layout_centerHorizontal="true"
+		
+		
+		
+		/>
+
+	<TextView
+		android:id="@+id/edit3mt"
+		
+		android:text=" Line number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#008080A0"
+		android:layout_margin="0dp"
+		android:layout_marginTop="0dp"
+		android:textSize="14sp"
+		android:layout_centerHorizontal="true"
+		android:textColor="#00D0DCFF"/>
+
+	<LinearLayout
+		
+		
+		
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#00CCAE6B"
+		android:layout_centerVertical="false"
+		android:layout_centerHorizontal="true"
+		android:layout_margin="0dp"
+		android:layout_marginTop="0dp">
+
+		<Button
+			android:id="@+id/cancelBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:text="Cancel"
+			android:layout_marginTop="70dp"
+			android:lines="1"
+			android:textSize="14sp"
+			android:onClick="onButtNo"
+			android:textColor="#FFFFFFFF"
+			android:textAllCaps = "false" 
+			android:background="#5574A1"/>
+
+		<!--Button
+			android:id="@+id/defaultBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:text="Init"
+			android:layout_marginTop="50dp"
+			android:lines="1"
+			android:textSize="14sp"
+			android:onClick="onButtDft"
+			android:textColor="#00FFFFFF"
+			android:background="#009C7837"/ -->
+
+		<Button
+			android:id="@+id/storeBtn"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:layout_gravity="top"
+			android:text="Go To ✔"
+			android:layout_marginTop="70dp"
+			android:onClick="onButtYes"
+			android:textSize="14sp"
+			android:textColor="#FFFFFFFF"
+			android:textAllCaps = "false" 
+			android:background="#CA4E3F"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
+<!--
+android:layout_weight="1"
+android:ems="80"
+
+android:ems="10"
+android:text="100"
+
+android:hintColor="#FFFFFFFF" Xx
+
+android:lines="1"
+android:singleLine ="1"  Xx
+android:digits="1234567890\n"
+android:inputType ="number"
+
+
+android:onClick="onButtYes"
+EditView O.K!
+
+-->
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+Copyright (C) 2010 - 2019 Paul Laughton
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Run" >
+
+    <view
+        android:id="@+id/console"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.java.ctl.sccr.Run$ConsoleListView"
+        android:focusable="true"
+        android:focusableInTouchMode="true"  
+        android:transcriptMode="alwaysScroll" />
+
+</LinearLayout>

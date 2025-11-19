@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright (C) 2010 - 2019 Paul Laughton
+-->
+
+<resources>
+	<style name="intro_getline">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ee7620</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="label">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+
+	<style name="edit_text">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:background">#000000</item>
+		
+	</style>
+
+
+	<style name="intro_getline_l">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ee7620</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="label_l">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+
+	<style name="edit_text_l">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:background">#000000</item>
+		<item name= "android:textCursorDrawable">@null</item>	
+	</style>
+
+	<!--  this is the style for the container ListView, not the rows -->
+	<!--  the rows are defined in code, see ReviewAdapter.ReviewListView -->
+	<style name="review_list">
+		<item name="android:background">#000000</item>
+	</style>
+    
+         <style name="Theme.BlackApp" parent="@android:style/Theme.DeviceDefault.Panel">         
+        <!-- sdk34(A14) app 1st view:Black smooth, 20240515We1122A, ++ iian. -->
+    </style>
+
+</resources>

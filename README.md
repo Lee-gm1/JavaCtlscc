@@ -1,5 +1,5 @@
 # JavaCtlscc
-# Java-Ctl-scc • rfo
+# JavaCtlscc ✔ rfo
 
 
 Summary of additions into "rfo".
@@ -28,3 +28,23 @@ Summary of additions into "rfo".
 20) Change the initial installation part
 
 20251119We0205A
+...
+...
+
+Ref. Links (Telegram :  Open Channel • Talk) ...
+
+https://t.me/idetools           : (English)
+https://t.me/+37Xg_QBfVNFiYTkx  : (English)
+
+
+https://t.me/humanoidmk         : (Korean)
+https://t.me/humanoid1          : (Korean)
+
+...
+...
+
+https://t.me/+XgkV1BK2VXA5MmVh  : (Korean)
+
+.
+.
+

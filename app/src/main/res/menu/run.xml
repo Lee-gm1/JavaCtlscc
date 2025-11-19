@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+Copyright (C) 2010 - 2019 Paul Laughton
+-->
+	
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item android:id="@+id/stop"
+      android:title="@string/stop"/>
+     
+   <item android:id="@+id/editor"
+      android:title="@string/editor"/>
+   
+</menu>

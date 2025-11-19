@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+    Copyright (C) 2010 - 2019 Paul Laughton
+-->
+	
+
+<!-- This is the layout for devices with the original "5 + More" menu style -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+	<item android:id="@+id/load"
+		android:title="@string/load"/>
+	
+    <!-- disc. ++, 20240314Th0925P, iian.
+    res/xml/settings.xml :: CheckBoxPreference :: true
+    
+    editor.xml x2
+    strings.xml x2
+
+    Editor.java
+    Settings1.java
+    settings.xml
+    ...
+    
+    Top Bar : always Disp.
+   1. load Run
+   2. Exp Run : path run
+   3. iFt
+   4. Exp.Edit
+   5. goto Line
+   6. save Run
+   
+    -->
+    
+    
+	<item android:id="@+id/load_run"
+		android:title="@string/load_run"/>
+	
+    <item android:id="@+id/save_run"
+        android:title="@string/save_run"/>
+    
+  
+    
+	<item android:id="@+id/save"
+		android:title="@string/save"/>
+	
+    
+    
+	
+	<item android:id="@+id/run"
+		android:title="@string/run"/>
+	<!--  O.K. Move to this position ...  
+		 20240123Tu0418A, ++ iian.
+	-->
+	
+    <item android:id="@+id/goto1"
+        
+        android:title="@string/goto1"/>
+
+    
+
+    <item android:id="@+id/help"
+		android:title="@string/help"/>
+
+
+    <item android:id="@+id/search"
+        android:title="@string/search"/>
+
+    
+
+	
+	<item android:id="@+id/pathrun"
+		
+		android:icon="@drawable/appedrun9"
+		android:title="@string/pathrun"
+		/>
+	
+	<!-- item name="android:textColor">#ffff00</item -->
+	
+	
+	<!-- item android:id="@+id/ift"
+		
+		android:icon="@drawable/appbd4_36x24_ift6"
+		
+		android:title="@string/ift"/ -->
+	
+	
+	<!-- item android:id="@+id/textedit1"
+		
+		android:title="@string/expedit"/ -->
+
+	
+	
+	
+
+	
+	
+    <!-- item android:id="@+id/save_run"
+		
+		android:title="@string/save_run"/ -->
+	
+	
+	
+
+	
+	<!-- item android:id="@+id/delete"
+		android:title="@string/delete"/ -->
+        
+    <!-- item android:id="@+id/projects"
+        android:title="@string/projects"/ -->
+    <!--
+       add projects menu & move to below, delete menu 
+     -->
+	
+    <item android:id="@+id/delete"
+        android:title="@string/delete"/>
+    
+	
+	<item android:id="@+id/clear"
+		android:title="@string/clear"/>
+    
+    
+	
+
+    <!-- item android:id="@+id/format"
+    android:title="@string/format"/ -->
+
+
+    <!-- item android:id="@+id/setcolor"
+		android:title="@string/setcolorpath"/ -->
+	
+	
+	
+	
+	
+    <item android:id="@+id/settings"
+    android:title="@string/settings"/>
+
+    <item android:id="@+id/about"
+		
+	android:icon="@drawable/appabout"
+	
+    android:title="@string/about"/>
+
+    <!-- item android:id="@+id/internal"
+		android:title="@string/internal"/ -->
+
+    <item android:id="@+id/exit"
+    android:title="@string/exit"/>
+
+</menu>
+

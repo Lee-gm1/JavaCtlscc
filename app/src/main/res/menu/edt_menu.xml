@@ -1,0 +1,87 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+        android:id="@+id/act_bt5"
+        android:title="➕"	
+        android:showAsAction="always"/>	
+	<item
+        android:id="@+id/act_bt4"
+        android:title="➖"
+		android:showAsAction="always"/>
+	<item
+        android:id="@+id/act_bt3"
+        android:title="🔍"
+		android:showAsAction="always"/>
+	<item
+        android:id="@+id/act_bt2"
+        android:title="💾"
+		android:showAsAction="always"/>
+	<item
+        android:id="@+id/act_bt1"
+        android:title="📝"
+		android:showAsAction="always"/>
+		
+	<item
+        android:id="@+id/act_bt6"
+        android:title="Exit"
+		android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt8"
+		android:typeface="monospace"
+        android:title="Open        ✖"	
+		android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt7"
+        android:title="Save as    ✖"
+		android:typeface="monospace"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt9"
+		android:typeface="monospace"
+        android:title="New Text ✖"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt10"
+		android:typeface="monospace"
+        android:title="New Dir    ✖"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt11"
+		android:typeface="monospace"
+        android:title="Help          ⚡"	
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/act_bt12"
+        android:title="About"
+        android:showAsAction="never"/>	
+	<item
+        android:id="@+id/act_bt13"
+        android:title="Set"
+        android:showAsAction="never"/>	
+			
+</menu>
+
+<!--
+	
+<item
+android:id="@+id/act_bt2"
+android:title="Bt2"
+android:showAsAction="collapseActionView"/>
+
+
+<item
+android:id="@+id/act_bt14"
+android:title="     "
+android:showAsAction="never"/>
+<item
+android:id="@+id/act_bt15"
+android:title="     "
+android:showAsAction="never"/>
+<item
+android:id="@+id/act_bt16"
+android:title="   "
+android:showAsAction="never"/>	
+
+
+
+-->

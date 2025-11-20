@@ -43,7 +43,7 @@ https://t.me/+37Xg_QBfVNFiYTkx  : (English)
 
 https://t.me/humanoidmk         : (Korean)
 
-https://t.me/c/2985888131/178   : (Picture)
+https://t.me/humanoidmk/86      : (Picture)
 
 https://t.me/humanoid1          : (Korean)
 

@@ -43,9 +43,9 @@ https://t.me/idetools           : (English)
 https://t.me/+37Xg_QBfVNFiYTkx  : (English)
 
 
-https://t.me/humanoidmk/42      : (Photo)
+https://t.me/humanoidmk/42      : (Photo • IDE • Apk)
 
-https://t.me/humanoidmk/86      : (Picture)
+https://t.me/humanoidmk/86      : (Picture • ide)
 
 https://t.me/humanoidmk         : (Korean)
 

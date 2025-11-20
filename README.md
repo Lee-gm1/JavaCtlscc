@@ -36,10 +36,14 @@ Telegram : Open Channel • Talk
 
 https://t.me/idetools           : (English)
 
+https://t.me/idetools/96        : (English)
+
 https://t.me/+37Xg_QBfVNFiYTkx  : (English)
 
 
 https://t.me/humanoidmk         : (Korean)
+
+https://t.me/c/2985888131/178   : (Picture)
 
 https://t.me/humanoid1          : (Korean)
 

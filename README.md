@@ -38,7 +38,7 @@ https://t.me/idetools/96        : (English)
 
 https://t.me/idetools/90        : (English)
 
-https://t.me/idetools           : (English)
+https://t.me/idetools           : (English • Phone IDE)
 
 https://t.me/+37Xg_QBfVNFiYTkx  : (English)
 
